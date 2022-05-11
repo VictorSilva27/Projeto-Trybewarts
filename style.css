@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+body {
+  background-color: rgb(238, 235, 235);
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+.trybewarts-header-logo {
+  border-radius: px;
+  width: 50px;
+}
+
+.trybewarts-login {
+  display: flex;
+  gap: 5px;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 7px;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(112, 79, 143);
+  color: aliceblue;
+}
+
+.button:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+main {
+  margin: 10px;
+  display: flex;
+}
+
+.title-forms {
+  text-align: center;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 90%;
+}
+
+.first-section div,
+.first-section input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  gap: 10px;
+}
+
+.family-checkbox-radio {
+  display: flex;
+  width: 90%;
+  padding: 5px;
+  gap: 5px;
+  font-size: larger;
+  margin: 10px;
+}
+
+.family-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: stretch;
+  justify-content: center;
+  width: 50%;
+  padding-left: 5px;
+}
+
+.input-checkbox {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 90%;
+}
+
+.input-checkbox div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 32px;
+}
+#p-input{
+  padding: 15px;
+}
+
+#op-div {
+  display: flex;
+  gap: 5px;
+}
+
+.img-final {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.rodape {
+  background-color: black;
+  background-color: rgb(50, 167, 145);
+  padding: 25px;
+}
+
+.rodape h2 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: medium;
+  color: aliceblue;
+}
